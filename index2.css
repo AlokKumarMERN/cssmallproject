@@ -1,0 +1,33 @@
+.main{
+    height: 620px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url("https://wallpapers.com/images/hd/starry-night-over-mountains-zt0to2lebx20wyzt.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    background-color: rgb(9, 113, 30);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.inner{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.063);
+    backdrop-filter: blur(10px);
+}
+.innermost{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
